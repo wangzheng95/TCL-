@@ -52,3 +52,103 @@ a {
         line-height: 40px;
         margin: 0 15px 0 15px;
         text-align: center; }
+
+.header .header-nav {
+  width: 1520px;
+  height: 80px;
+  background: #ffffff; }
+  .header .header-nav .header-nav-bar {
+    width: 1270px;
+    height: 80px;
+    margin: 0 auto; }
+    .header .header-nav .header-nav-bar .logo {
+      width: 76px;
+      height: 45px;
+      float: left;
+      margin-top: 15px; }
+      .header .header-nav .header-nav-bar .logo a img {
+        display: block; }
+    .header .header-nav .header-nav-bar .header-nav-list {
+      width: 497px;
+      height: 40px;
+      float: left;
+      margin-left: 100px;
+      position: relative;
+      top: 20px; }
+      .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-nav-list-item {
+        float: left;
+        height: 40px; }
+        .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-nav-list-item a {
+          margin: 0 16px 0 17px;
+          font-size: 14px;
+          color: #333333;
+          line-height: 40px; }
+    .header .header-nav .header-nav-bar .header-nav-right {
+      float: right;
+      width: 460px;
+      height: 40px;
+      position: relative;
+      top: 20px; }
+      .header .header-nav .header-nav-bar .header-nav-right article {
+        float: left;
+        color: #cccccc;
+        font-size: 14px;
+        line-height: 40px; }
+      .header .header-nav .header-nav-bar .header-nav-right a {
+        float: left;
+        color: #555555;
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 40px; }
+      .header .header-nav .header-nav-bar .header-nav-right .search {
+        float: right; }
+        .header .header-nav .header-nav-bar .header-nav-right .search input {
+          width: 233px;
+          height: 34px;
+          outline: 0;
+          padding: 0 5px; }
+        .header .header-nav .header-nav-bar .header-nav-right .search a {
+          width: 9px;
+          height: 28px;
+          position: absolute;
+          top: 4px;
+          right: 5px;
+          border-radius: 50%;
+          border: 1px solid #cccccc;
+          background: #e4e4e4; }
+          .header .header-nav .header-nav-bar .header-nav-right .search a img {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 6px;
+            left: 6px; }
+
+.header .header-hide {
+  width: 1520px;
+  height: 210px;
+  background: #ffffff; }
+  .header .header-hide .header-hide-bar {
+    width: 1110px;
+    height: 144px;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 30px 0 36px; }
+    .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item {
+      width: 162px;
+      margin: 0 30px; }
+      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a img {
+        width: 160px;
+        height: 100px; }
+      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .instro {
+        font-size: 12px;
+        color: #333333;
+        height: 12px;
+        line-height: 12px;
+        text-align: center; }
+      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .price {
+        height: 12px;
+        font-size: 12px;
+        line-height: 12px;
+        color: red;
+        text-align: center;
+        margin-top: 8px; }

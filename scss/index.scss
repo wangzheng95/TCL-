@@ -68,4 +68,135 @@ a {
             }
         }
     }
+    .header-nav {
+        width: 1520px;
+        height: 80px;
+        background: #ffffff;
+        .header-nav-bar {
+            width: 1270px;
+            height: 80px;
+            // background: pink;
+            margin: 0 auto;
+            .logo {
+                width: 76px;
+                height: 45px;
+                float: left;
+                margin-top: 15px;
+                a {
+                    img {
+                        display: block;
+                    }
+                }
+            }
+            .header-nav-list {
+                width: 497px;
+                height: 40px;
+                float: left;
+                margin-left: 100px;
+                position: relative;
+                top: 20px;
+                .header-nav-list-ul {
+                    .header-nav-list-item {
+                        float: left;
+                        // width: 28px;
+                        height: 40px;
+                        // padding: 0 16px 0 17px;
+                        // border-bottom: 2px solid #ff0000;
+                        a {
+                            margin: 0 16px 0 17px;
+                            font-size: 14px;
+                            color: #333333;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+            .header-nav-right {
+                float: right;
+                width: 460px;
+                height: 40px;
+                position: relative;
+                top: 20px;
+                article {
+                    float: left;
+                    color: #cccccc;
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+                a {
+                    float: left;
+                    color: #555555;
+                    padding: 0 10px;
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+                .search {
+                    float: right;
+                    input {
+                        width: 233px;
+                        height: 34px;
+                        outline: 0;
+                        padding: 0 5px;
+                    }
+                    a {
+                        width: 9px;
+                        height: 28px;
+                        // display: block;
+                        position: absolute;
+                        top: 4px;
+                        right: 5px;
+                        border-radius: 50%;
+                        border: 1px solid #cccccc;
+                        background: #e4e4e4;
+                        img {
+                            width: 16px;
+                            height: 16px;
+                            position: absolute;
+                            top: 6px;
+                            left: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-hide {
+        width: 1520px;
+        height: 210px;
+        background: #ffffff;
+        .header-hide-bar {
+            width: 1110px;
+            height: 144px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 30px 0 36px;
+            .header-hide-ul {
+                .header-hide-item {
+                    width: 162px;
+                    margin: 0 30px;
+                    a {
+                        img {
+                            width: 160px;
+                            height: 100px;
+                        }
+                        .instro {
+                            font-size: 12px;
+                            color: #333333;
+                            height: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                        }
+                        .price {
+                            height: 12px;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: red;
+                            text-align: center;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
