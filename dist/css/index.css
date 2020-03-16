@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  text-decoration: none;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.header .header-top {
+  width: 1520px;
+  height: 40px;
+  background: #666666; }
+  .header .header-top .header-top-bar {
+    width: 1228px;
+    height: 40px;
+    margin: 0 auto; }
+    .header .header-top .header-top-bar .top-bar-left {
+      float: left; }
+      .header .header-top .header-top-bar .top-bar-left li {
+        margin: 0 0 0 43px;
+        float: left; }
+        .header .header-top .header-top-bar .top-bar-left li a {
+          font-size: 11px;
+          color: #cccccc;
+          line-height: 40px; }
+      .header .header-top .header-top-bar .top-bar-left .first {
+        margin: 0; }
+    .header .header-top .header-top-bar .top-bar-right {
+      float: right;
+      position: relative; }
+      .header .header-top .header-top-bar .top-bar-right li {
+        float: right; }
+        .header .header-top .header-top-bar .top-bar-right li .wechat {
+          position: absolute;
+          top: 40px;
+          border: 1px solid #cccccc;
+          left: -10px;
+          display: none; }
+        .header .header-top .header-top-bar .top-bar-right li a {
+          color: #cccccc;
+          font-size: 11px;
+          line-height: 40px; }
+          .header .header-top .header-top-bar .top-bar-right li a .carnum {
+            margin: 0; }
+      .header .header-top .header-top-bar .top-bar-right span {
+        float: right;
+        color: #cccccc;
+        font-size: 11px;
+        line-height: 40px;
+        margin: 0 15px 0 15px;
+        text-align: center; }
