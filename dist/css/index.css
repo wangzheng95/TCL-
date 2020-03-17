@@ -38,7 +38,8 @@ a {
           top: 40px;
           border: 1px solid #cccccc;
           left: -10px;
-          display: none; }
+          display: none;
+          z-index: 5; }
         .header .header-top .header-top-bar .top-bar-right li a {
           color: #cccccc;
           font-size: 11px;
@@ -70,19 +71,57 @@ a {
         display: block; }
     .header .header-nav .header-nav-bar .header-nav-list {
       width: 497px;
-      height: 40px;
+      height: 80px;
       float: left;
       margin-left: 100px;
-      position: relative;
-      top: 20px; }
+      position: relative; }
+      .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide {
+        z-index: 20;
+        position: absolute;
+        top: 80px;
+        left: -300px;
+        width: 1520px;
+        height: 210px;
+        background: #ffffff;
+        display: none; }
+        .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide .header-hide-bar {
+          width: 1110px;
+          height: 144px;
+          background: #ffffff;
+          margin: 0 auto;
+          padding: 30px 0 36px; }
+          .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide .header-hide-bar .header-hide-ul .header-hide-item {
+            width: 162px;
+            margin: 0 30px;
+            float: left; }
+            .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide .header-hide-bar .header-hide-ul .header-hide-item a img {
+              width: 100px;
+              height: 100px;
+              position: relative;
+              top: 0;
+              left: 31px; }
+            .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .instro {
+              font-size: 12px;
+              color: #333333;
+              height: 12px;
+              line-height: 12px;
+              text-align: center;
+              overflow: hidden; }
+            .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .price {
+              height: 12px;
+              font-size: 12px;
+              line-height: 12px;
+              color: red;
+              text-align: center;
+              margin-top: 8px; }
       .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-nav-list-item {
         float: left;
-        height: 40px; }
+        height: 76px; }
         .header .header-nav .header-nav-bar .header-nav-list .header-nav-list-ul .header-nav-list-item a {
           margin: 0 16px 0 17px;
           font-size: 14px;
           color: #333333;
-          line-height: 40px; }
+          line-height: 80px; }
     .header .header-nav .header-nav-bar .header-nav-right {
       float: right;
       width: 460px;
@@ -123,32 +162,147 @@ a {
             top: 6px;
             left: 6px; }
 
-.header .header-hide {
+.banner {
   width: 1520px;
-  height: 210px;
-  background: #ffffff; }
-  .header .header-hide .header-hide-bar {
-    width: 1110px;
-    height: 144px;
-    background: #ffffff;
-    margin: 0 auto;
-    padding: 30px 0 36px; }
-    .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item {
-      width: 162px;
-      margin: 0 30px; }
-      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a img {
-        width: 160px;
-        height: 100px; }
-      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .instro {
-        font-size: 12px;
-        color: #333333;
-        height: 12px;
-        line-height: 12px;
-        text-align: center; }
-      .header .header-hide .header-hide-bar .header-hide-ul .header-hide-item a .price {
-        height: 12px;
-        font-size: 12px;
-        line-height: 12px;
-        color: red;
-        text-align: center;
-        margin-top: 8px; }
+  height: 550px;
+  background: green;
+  position: relative;
+  overflow: hidden; }
+  .banner .banner-img {
+    width: 500%;
+    position: absolute;
+    left: -1520px; }
+    .banner .banner-img a {
+      width: 1520px;
+      height: 550px;
+      display: block;
+      float: left;
+      overflow: hidden;
+      position: relative; }
+      .banner .banner-img a img {
+        position: relative;
+        left: -200px;
+        display: block;
+        width: 1920px;
+        height: 550px; }
+  .banner .banner-img-left {
+    z-index: 10;
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 240px;
+    left: 350px; }
+  .banner .banner-img-right {
+    z-index: 10;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 240px;
+    right: 180px; }
+  .banner .banner-img-circle {
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    left: 1314px; }
+    .banner .banner-img-circle .img-circle {
+      float: left;
+      margin: 0 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background: #ffffff; }
+    .banner .banner-img-circle .active {
+      background: red; }
+  .banner .banner-containt {
+    position: absolute;
+    top: 0;
+    left: 146px;
+    width: 1228px;
+    height: 550px; }
+    .banner .banner-containt .banner-nav {
+      width: 176px;
+      height: 550px;
+      padding: 40px 0 0;
+      position: relative; }
+      .banner .banner-containt .banner-nav .banner-nav-ul {
+        width: 176px;
+        height: 550px; }
+        .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item {
+          width: 176px;
+          height: 67px;
+          background-color: rgba(0, 0, 0, 0.5); }
+          .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item a {
+            display: inline-block;
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 0 22px 0 32px;
+            height: 100%;
+            width: 122px; }
+            .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item a span {
+              font-size: 16px;
+              line-height: 67px;
+              color: #ffffff; }
+            .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item a p {
+              position: absolute;
+              top: 22px;
+              right: 0px;
+              font-size: 14px;
+              color: #ffffff; }
+          .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide {
+            display: none;
+            width: 728px;
+            height: 492px;
+            background: #ffffff;
+            border-top: 1px solid #cccccc;
+            padding: 57px 0 0 30px;
+            position: absolute;
+            top: 0;
+            left: 176px; }
+            .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item {
+              width: 313px;
+              height: 120px;
+              margin: 0 0 38px 23px;
+              float: left; }
+              .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item a {
+                width: 313px;
+                height: 120px; }
+                .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item a img {
+                  float: left;
+                  width: 120px;
+                  height: 120px; }
+                .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item a .item-box {
+                  width: 168px;
+                  height: 67.6px;
+                  margin: 40px 0 0 20px;
+                  float: left; }
+                  .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item a .item-box .instro {
+                    width: 168px;
+                    display: block;
+                    font-size: 14px;
+                    color: #555555;
+                    line-height: 18px; }
+                  .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item a .item-box .price {
+                    display: block;
+                    height: 14px;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #ff2524;
+                    font-weight: 600; }

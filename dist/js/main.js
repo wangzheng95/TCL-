@@ -20,4 +20,7 @@ require(["header"], function(header) {
     header.topHover();
     header.topNavHover();
     header.navDownload();
+    header.bannerTab();
+    header.siderList();
+    header.siderNavHover();
 })
