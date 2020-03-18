@@ -39,13 +39,13 @@ gulp.task("scss", function() {
         .pipe(connect.reload())
 })
 gulp.task("scssAll", function() {
-        return gulp.src("scss/*.sccc")
+        return gulp.src("scss/*.scss")
             .pipe(scss())
             .pipe(gulp.dest("dist/css"))
             .pipe(connect.reload())
     })
     // 一次性执行多个任务
-gulp.task("build", ["copy-html", "images", "scripts", "data", "scss"], function() {
+gulp.task("build", ["copy-html", "images", "scripts", "data", "scss", "scssAll"], function() {
     console.log("项目建立成功");
 })
 
@@ -56,6 +56,7 @@ gulp.task("watch", function() {
         gulp.watch(["*.js", "!gulpfile.js"], ["scripts"])
         gulp.watch(["*.json", "!package.json"], ["data"])
         gulp.watch("scss/index.scss", ["scss"])
+        gulp.watch("scss/*.scss", ["scssAll"])
     })
     // 启动一个服务器
 const connect = require("gulp-connect")

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/require.js" async="true" defer data-main=js/main1.js></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <p class="h">
+            <a class="logo" href="">
+                <img src="images/登录注册/logo.png" alt="">
+            </a>
+            <span class="num">TCL账号登录</span>
+        </p>
+    </div>
+    <!-- login -->
+    <div class="lbox">
+        <div class="lg">
+            <!-- 1 -->
+            <div class="zct1">
+                <p class="zt">注册TCL账号</p>
+                <div class="zc">
+                    <span class="zc1"></span>
+                    <input class="in1" name="phonenumber" type="text" placeholder="手机号码" onKeyUp="value=value.replace(/[^\d]/g,'')">
+                    <span class="zc2"></span>
+                </div>
+                <div class="tp">
+                    <span class="tp1"></span>
+                    <input class="in2" name="imagecode" type="text" placeholder="图片验证码">
+                    <span class="tp2">
+                        <img class="im" src="images/登录注册/图片验证码.jpg" alt="">
+                    </span>
+                    <span class="tp3"></span>
+                </div>
+                <div class="dx">
+                    <span class="dx1"></span>
+                    <input class="in3" name="messagecode" type="text" placeholder="短信验证码">
+                    <span class="dx2">获取验证码</span>
+                    <span class="dx3"></span>
+                </div>
+                <!-- <div class="protocol">
+                    <input type="checkbox" class="clause-checkbox J-Protocol" checked="checked">
+                    <span class="agree-text J-ProtocolText">已阅读并同意用户服务条款和隐私政策</span>
+                </div> -->
+                <p class="login-btn">
+                    <button class="logb">注册</button>
+                </p>
+                <p class="zhi" id="">
+                    <a class="yy" href="">已有账号直接登录</a>
+                    <a class="tj" href="">推荐第三方登录</a>
+                </p>
+            </div>
+            <!-- 2 -->
+            <div class="zct2">
+                <div class="zct">
+                    <p class="zh">您注册的账号为：
+                        <span class="phone"></span>
+                    </p>
+                    <p class="mi">请设置密码</p>
+                    <div class="d1">
+                        <span class="ma"></span>
+                        <input class="inp1" type="text" value placeholder="设置密码">
+                        <span class="zhi"></span>
+                    </div>
+                    <div class="d2">
+                        <span class="ma1"></span>
+                        <input class="inp2" type="text" placeholder="确认密码">
+                        <span class="qr"></span>
+                    </div>
+                    <p class="zc">密码由8-16位英文字母、数字或者符号组成</p>
+                    <p>
+                        <span class="tj">确认提交</span>
+                    </p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="zct3">
+                <div class="zct">
+                    <p>恭喜您注册成功！</p>
+                    <div class="suc">
+                        <img src="images/登录注册/头.png" alt="">
+                    </div>
+                    <p class="s">
+                        <span>s后自动跳转</span>
+                    </p>
+                    <p class="dd"><a href="">登录</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerbox">
+        <p class="foot-t">
+            <a href="">关于TCL</a>
+            <a href="">社会责任</a>
+            <a href="">投资者关系</a>
+            <a href="">新闻中心</a>
+            <a href="">经销商之家</a>
+        </p>
+        <p class="foot-b">
+            ©2010-2016 TCL CORPORATION All Rights Reserved.
+            <a href="">使用条款</a> TCL集团股份有限公司版权所有 粤ICP备05040863号
+        </p>
+    </div>
+</body>
+
+</html>
