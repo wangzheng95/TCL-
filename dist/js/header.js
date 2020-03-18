@@ -183,7 +183,15 @@ define(["jquery", "jquery-cookie"], function($) {
         })
 
     }
-
+    // 给商品列表添加移入移出
+    function goodsTab() {
+        $(".goods-item .goods-header").find("a").mouseenter(function() {
+            $(this).css({ color: "red" })
+        })
+        $(".goods-item .goods-header").find("a").mouseleave(function() {
+            $(this).css({ color: "#555555" })
+        })
+    }
 
     return {
         topHover: topHover,
@@ -192,5 +200,6 @@ define(["jquery", "jquery-cookie"], function($) {
         bannerTab: bannerTab,
         siderList: siderList,
         siderNavHover: siderNavHover,
+        goodsTab: goodsTab,
     }
 })

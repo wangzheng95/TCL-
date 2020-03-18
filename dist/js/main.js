@@ -23,4 +23,5 @@ require(["header"], function(header) {
     header.bannerTab();
     header.siderList();
     header.siderNavHover();
+    header.goodsTab();
 })

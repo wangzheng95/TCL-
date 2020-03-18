@@ -255,7 +255,7 @@ a {
             margin: 0 22px 0 32px;
             height: 100%;
             width: 122px; }
-            .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item a span {
+            .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item a .banner-hide-item-title {
               font-size: 16px;
               line-height: 67px;
               color: #ffffff; }
@@ -274,7 +274,8 @@ a {
             padding: 57px 0 0 30px;
             position: absolute;
             top: 0;
-            left: 176px; }
+            left: 176px;
+            z-index: 20; }
             .banner .banner-containt .banner-nav .banner-nav-ul .banner-nav-item .banner-hide .banner-hide-item {
               width: 313px;
               height: 120px;
@@ -306,3 +307,266 @@ a {
                     line-height: 14px;
                     color: #ff2524;
                     font-weight: 600; }
+
+.three-box {
+  width: 1520px;
+  height: 300px;
+  background: #f2f2f2;
+  overflow: hidden; }
+  .three-box .three {
+    width: 1228px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 40px; }
+    .three-box .three a {
+      width: 400px;
+      height: 220px;
+      margin-right: 9px; }
+
+.goods-box {
+  width: 1520px;
+  background: #f2f2f2;
+  padding-bottom: 45px; }
+  .goods-box .goods {
+    width: 1228px;
+    margin: 0 auto; }
+    .goods-box .goods .goods-item {
+      width: 1228px;
+      height: 680px; }
+      .goods-box .goods .goods-item .goods-header {
+        width: 1228px;
+        height: 30px;
+        margin: 0 0 24px; }
+        .goods-box .goods .goods-item .goods-header h2 {
+          height: 30px;
+          font-size: 22px;
+          color: #666666;
+          margin: 0 36px 0 0;
+          padding: 0 0 0 15px;
+          float: left;
+          border-left: 5px solid red;
+          font-weight: 500; }
+        .goods-box .goods .goods-item .goods-header ul {
+          float: left;
+          height: 30px; }
+          .goods-box .goods .goods-item .goods-header ul li {
+            height: 30px;
+            margin-right: 16px;
+            float: left;
+            line-height: 30px; }
+            .goods-box .goods .goods-item .goods-header ul li a {
+              font-size: 14px;
+              color: #555555; }
+        .goods-box .goods .goods-item .goods-header a {
+          float: right;
+          color: #fe0000;
+          font-size: 12px; }
+      .goods-box .goods .goods-item .goods-content {
+        width: 1228px;
+        height: 615px; }
+        .goods-box .goods .goods-item .goods-content .content-left {
+          float: left; }
+          .goods-box .goods .goods-item .goods-content .content-left a img {
+            width: 296px;
+            height: 615px; }
+        .goods-box .goods .goods-item .goods-content .content-right {
+          width: 931px;
+          height: 628px;
+          float: left; }
+          .goods-box .goods .goods-item .goods-content .content-right li {
+            margin: 0 0 14px 14px;
+            float: left; }
+            .goods-box .goods .goods-item .goods-content .content-right li a img {
+              width: 296px;
+              height: 300px; }
+
+.footer-box {
+  width: 1520px;
+  height: 555px;
+  background: #ffffff; }
+  .footer-box .footer {
+    width: 1228px;
+    height: 685px;
+    margin: 0 auto;
+    background: #ffffff; }
+    .footer-box .footer .footer-top {
+      height: 414px; }
+      .footer-box .footer .footer-top ul {
+        width: 1228px; }
+        .footer-box .footer .footer-top ul li {
+          width: 296px;
+          height: 414px;
+          margin: 0 10px 10px 0;
+          float: left; }
+          .footer-box .footer .footer-top ul li a {
+            font-size: 0; }
+            .footer-box .footer .footer-top ul li a img {
+              display: block; }
+          .footer-box .footer .footer-top ul li .top-title-box {
+            width: 228px;
+            padding: 36px 34px;
+            background: #f2f2f2; }
+            .footer-box .footer .footer-top ul li .top-title-box .top-title {
+              margin-bottom: 10px;
+              height: 24px; }
+              .footer-box .footer .footer-top ul li .top-title-box .top-title span {
+                background: blue;
+                font-size: 12px;
+                color: #ffffff;
+                margin: 0 8px 0 0;
+                padding: 0 10px;
+                text-align: center;
+                float: left;
+                height: 24px;
+                line-height: 24px; }
+              .footer-box .footer .footer-top ul li .top-title-box .top-title p {
+                height: 24px;
+                line-height: 24px;
+                float: left;
+                font-size: 14px;
+                color: #333333; }
+            .footer-box .footer .footer-top ul li .top-title-box .top-text {
+              width: 228px;
+              margin: 0 0 18px; }
+            .footer-box .footer .footer-top ul li .top-title-box a {
+              font-size: 12px;
+              color: #666666; }
+            .footer-box .footer .footer-top ul li .top-title-box a:hover {
+              color: red; }
+    .footer-box .footer .footer-top-more {
+      width: 1226px;
+      height: 16px;
+      margin: 30px 0 70px 0;
+      text-align: center; }
+      .footer-box .footer .footer-top-more a {
+        color: #555555;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        height: 16px; }
+      .footer-box .footer .footer-top-more a:hover {
+        color: red; }
+
+.footer-bottom-bar {
+  width: 1520px;
+  height: 130px;
+  background: #f2f2f2; }
+  .footer-bottom-bar .footer-bottom {
+    width: 1228px;
+    height: 129px;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc; }
+    .footer-bottom-bar .footer-bottom a {
+      display: block;
+      float: left;
+      width: 256px;
+      height: 28px;
+      font-size: 14px;
+      line-height: 28px;
+      margin: 51px 0 0 50px;
+      color: #666666; }
+
+.help {
+  background-color: #f0f0f0;
+  padding: 40px 0 41px; }
+  .help .min-wid {
+    overflow: hidden;
+    position: relative;
+    width: 1226px;
+    margin: 0 auto; }
+    .help .min-wid dl {
+      float: left;
+      margin-right: 112px; }
+      .help .min-wid dl dt {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 20px;
+        color: #333;
+        font-weight: 700; }
+      .help .min-wid dl dd {
+        display: block;
+        line-height: 12px; }
+        .help .min-wid dl dd a {
+          color: #999;
+          outline: 0;
+          display: inline-block;
+          padding-bottom: 12px;
+          font-size: 12px; }
+        .help .min-wid dl dd a:hover {
+          color: black;
+          text-decoration: underline; }
+    .help .min-wid .last-r {
+      width: 172px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      margin-right: 0; }
+      .help .min-wid .last-r .phone {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 2px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: red; }
+      .help .min-wid .last-r .grey {
+        font-size: 12px;
+        color: #999;
+        line-height: 18px;
+        text-align: center; }
+      .help .min-wid .last-r a {
+        width: 160px;
+        height: 32px;
+        font-size: 12px;
+        color: red;
+        border: 1px solid red;
+        line-height: 32px;
+        margin-top: 20px;
+        padding: 2px;
+        display: inline-block; }
+      .help .min-wid .last-r a:hover {
+        background: red;
+        color: #ffffff; }
+
+.footer {
+  width: 100%;
+  font-size: 12px;
+  color: #999;
+  background-color: #e3e3e3;
+  padding: 25px 0; }
+  .footer .div {
+    width: 1226px;
+    line-height: 22px;
+    margin: 0 auto;
+    position: relative;
+    display: block; }
+    .footer .div p a {
+      color: #999; }
+    .footer .div p a:hover {
+      color: #666;
+      text-decoration: underline; }
+    .footer .div .blod a {
+      color: #666;
+      padding: 0px 15px; }
+      .footer .div .blod a a:first-child {
+        padding-left: 0px; }
+    .footer .div .foot-r {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      z-index: 10;
+      line-height: 29px; }
+      .footer .div .foot-r .la {
+        margin-left: 10px;
+        vertical-align: top;
+        display: inline-block;
+        position: relative; }
+        .footer .div .foot-r .la .c {
+          color: #555;
+          padding: 0 12px; }
+        .footer .div .foot-r .la .c:hover {
+          text-decoration: underline; }
+    .footer .div .tp {
+      text-align: center; }
+      .footer .div .tp div {
+        display: inline-block; }
